@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El@s Conectam – 1 Ano | Grande Tijuca</title>
+  <meta name="description" content="Edição comemorativa do El@s Conectam na Grande Tijuca. Liderança, networking e negócios.">
+  <style>
+    :root{ --azul:#0A2D64; --bg:#f8fafc; --card:#fff; --borda:#e2e8f0; --cinza:#64748b; }
+    *{ box-sizing:border-box } body{ margin:0; font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:var(--bg) }
+    a{ color:var(--azul); text-decoration:none }
+    header{ background:var(--azul); color:#fff; padding:22px 0 }
+    .container{ max-width:980px; margin:auto; padding:0 16px }
+    nav{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px }
+    nav .brand{ font-weight:800 }
+    nav .links a{ color:#e2e8f0; padding:6px 8px; border-radius:8px }
+    nav .links a:hover{ background:rgba(255,255,255,.14); color:#fff }
+    .hero{ display:grid; grid-template-columns:1.1fr .9fr; gap:16px; align-items:center }
+    @media (max-width:900px){ .hero{ grid-template-columns:1fr } }
+    .badge{ display:inline-block; padding:6px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.12); font-weight:700 }
+    .btn{ display:inline-block; background:#fff; color:var(--azul); padding:10px 14px; border-radius:10px; margin-top:10px; font-weight:700; border:1px solid rgba(2,8,23,.08) }
+    .btn.secondary{ background:transparent; color:#fff; border:1px solid rgba(255,255,255,.6) }
+    section{ padding:38px 0 }
+    h1{ margin:10px 0 6px; font-size:28px }
+    h2{ margin:0 0 10px; font-size:22px }
+    p.lead{ color:var(--cinza) }
+    .card{ background:var(--card); border:1px solid var(--borda); border-radius:12px; padding:14px }
+    .grid{ display:grid; gap:14px }
+    .grid-2{ grid-template-columns:repeat(2, minmax(0,1fr)) }
+    .grid-3{ grid-template-columns:repeat(3, minmax(0,1fr)) }
+    @media (max-width:900px){ .grid-2,.grid-3{ grid-template-columns:1fr } }
+    .metrics{ display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:10px }
+    .metric{ background:#fff; border:1px dashed var(--borda); border-radius:12px; padding:12px; text-align:center }
+    .metric b{ display:block; font-size:22px }
+    .supporters{ display:flex; gap:10px; flex-wrap:wrap; margin-top:8px }
+    .supporters img{ height:32px; width:auto }
+    .sponsor img{ max-height:64px; width:auto; display:block; margin:0 auto }
+    footer{ background:#0b1220; color:#cbd5e1; padding:22px 0; margin-top:8px }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">El@s Conectam • 1 Ano</div>
+        <div class="links">
+          <a href="https://www.sympla.com.br/evento/els-conectam--eles-tambem/3044670" target="_blank">Ingressos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#numeros">Números</a>
+          <a href="#midia">Mídia</a>
+          <a href="#cotas">Cotas</a>
+          <a href="#apoiadores">Apoiadores</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div>
+          <div class="badge">Edição Comemorativa • 11/10/2025 • Teatro Grajaú – Grande Tijuca</div>
+          <h1><!-- EDITAR AQUI --> Liderança, Networking e Negócios na Grande Tijuca</h1>
+          <p class="lead">Participe desta edição com curadoria de conteúdo, networking qualificado e oportunidades reais de parcerias.</p>
+          <a class="btn" target="_blank" href="https://www.sympla.com.br/evento/els-conectam--eles-tambem/3044670">Comprar ingresso no Sympla</a>
+          <a class="btn secondary" href="#cotas">Quero patrocinar</a>
+          <div id="countdown" style="display:flex; gap:8px; color:#fff; margin-top:10px">
+            <div class="card" style="background:transparent;border-color:rgba(255,255,255,.4);color:#fff"><b id="d">00</b><div>dias</div></div>
+            <div class="card" style="background:transparent;border-color:rgba(255,255,255,.4);color:#fff"><b id="h">00</b><div>h</div></div>
+            <div class="card" style="background:transparent;border-color:rgba(255,255,255,.4);color:#fff"><b id="m">00</b><div>min</div></div>
+            <div class="card" style="background:transparent;border-color:rgba(255,255,255,.4);color:#fff"><b id="s">00</b><div>seg</div></div>
+          </div>
+        </div>
+        <div class="card">
+          <h2 style="margin-top:0">Informações</h2>
+          <ul>
+            <li><b>Data:</b> 11/10/2025</li>
+            <li><b>Local:</b> Teatro Grajaú – Grajaú Tênis Clube</li>
+            <li><b>Tema:</b> Liderança e suas Vertentes</li>
+            <li><b>Formato:</b> Palestras, painéis e networking guiado</li>
+          </ul>
+          <!-- EDITAR AQUI: troque a imagem abaixo por uma foto do evento/teatro -->
+          <img src="photos/banner.jpg" alt="Banner do evento" style="border:1px solid var(--borda); border-radius:10px; margin-top:8px">
+        </div>
+      </div>
+      <!-- Barra de apoiadores (substitua os arquivos dentro da pasta /logos mantendo o mesmo nome) -->
+      <div class="supporters">
+        <img src="logos/sebrae.png" alt="Sebrae">
+        <img src="logos/estacio.png" alt="Estácio Supercampus Maracanã">
+        <img src="logos/teatro_grajau.png" alt="Teatro Grajaú">
+        <img src="logos/yes_idiomas.png" alt="Yes Idiomas (Grajaú e Vila Isabel)">
+        <img src="logos/jornal_tijolinho.png" alt="Jornal O Tijolinho">
+        <img src="logos/portal_grande_tijuca.png" alt="Portal Grande Tijuca">
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre o Evento</h2>
+      <p class="lead">
+        O <b>El@s Conectam</b> nasceu para unir empreendedores, empresários e futuros empresários da Grande Tijuca em torno de conhecimento, conexões e negócios. Nossa missão é <b>despertar mentes empreendedoras</b>, <b>impulsionar novos negócios</b> e <b>ampliar as fronteiras de atuação</b>. Também buscamos <b>potencializar parcerias estratégicas</b>, fortalecer conexões entre <b>pequenos e médios empresários</b> e aproximá-los de <b>instituições de ensino e capacitação</b>.
+      </p>
+    </div>
+  </section>
+
+  <section id="numeros">
+    <div class="container">
+      <h2>Nossos Números</h2>
+      <div class="metrics">
+        <div class="metric"><b>3</b>edições esgotadas</div>
+        <div class="metric"><b>+560</b>empreendedores impactados</div>
+        <div class="metric"><b>R$ 8.050</b>serviços externos</div>
+        <div class="metric"><b>R$ 46.032</b>receita gerada</div>
+        <div class="metric"><b>85%</b>parcerias efetivadas</div>
+        <div class="metric"><b>1 ano</b>de história</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="midia">
+    <div class="container">
+      <h2>Destaques na Mídia</h2>
+      <ul>
+        <li>TV Gazeta – quadro Conexão de Valor</li>
+        <li>Portal Grande Tijuca</li>
+        <li>Jornal O Tijolinho</li>
+        <li>Jornal O Povo na Rua – editorial de cultura</li>
+        <li>Sopa Cultural</li>
+        <li>Portal Eu, Rio!</li>
+        <li>Instagram • Facebook • WhatsApp</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="cotas">
+    <div class="container">
+      <h2>Cotas de Patrocínio</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Transformar – R$ 2.500,00</h3>
+          <ul>
+            <li>Palestra de 10 minutos dentro do tema central</li>
+            <li>Logomarca em destaque absoluto no evento e materiais (incluindo patrocinados)</li>
+            <li>10 convites VIP</li>
+            <li>Nome da empresa em todas as matérias de divulgação</li>
+            <li>Participação no <b>Conexão de Valor (TV Gazeta)</b> com 5 minutos</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Liderar – R$ 1.500,00</h3>
+          <ul>
+            <li>Palestra de 10 minutos dentro do tema central</li>
+            <li>Logomarca em destaque nos materiais (incluindo patrocinados)</li>
+            <li>8 convites VIP</li>
+            <li>Nome da empresa citado nas matérias e mídias de divulgação</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Inspirar – R$ 800,00</h3>
+          <ul>
+            <li>Participação em talk conectado ao segmento</li>
+            <li>Logomarca nos materiais de divulgação oficiais</li>
+            <li>8 convites VIP</li>
+            <li>Divulgação nas redes sociais do evento</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Conectar – R$ 500,00</h3>
+          <ul>
+            <li>Logomarca nos materiais digitais do evento (coletivamente)</li>
+            <li>8 convites VIP</li>
+            <li>Possibilidade de distribuição de vouchers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apoiadores">
+    <div class="container">
+      <h2>Apoiadores Oficiais</h2>
+      <div class="grid grid-3">
+        <div class="card sponsor"><img src="logos/sebrae.png" alt="Sebrae"></div>
+        <div class="card sponsor"><img src="logos/estacio.png" alt="Estácio Supercampus Maracanã"></div>
+        <div class="card sponsor"><img src="logos/teatro_grajau.png" alt="Teatro Grajáu"></div>
+        <div class="card sponsor"><img src="logos/yes_idiomas.png" alt="Yes Idiomas (Grajaú e Vila Isabel)"></div>
+        <div class="card sponsor"><img src="logos/jornal_tijolinho.png" alt="Jornal O Tijolinho"></div>
+        <div class="card sponsor"><img src="logos/portal_grande_tijuca.png" alt="Portal Grande Tijuca"></div>
+      </div>
+      <!-- Para ADICIONAR mais logos, duplique uma <div class="card sponsor"><img ...> e aponte para o arquivo dentro de /logos -->
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Inscrições & Parcerias</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <p><b>Produção Geral:</b> Equipe El@s Conectam</p>
+          <p><b>Telefone:</b> (21) 96426-0166</p>
+          <p><b>E-mail:</b> <a href="mailto:fmeventoscorp@gmail.com">fmeventoscorp@gmail.com</a></p>
+          <p><b>Instagram:</b> <a target="_blank" href="https://instagram.com/elasconectam.rj">@elasconectam.rj</a></p>
+        </div>
+        <div class="card">
+          <p>Para ingressos, acesse: <a target="_blank" href="https://www.sympla.com.br/evento/els-conectam--eles-tambem/3044670">Sympla</a></p>
+          <p>Para patrocínio, fale com a produção por e-mail ou WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>© El@s Conectam – Edição Comemorativa • Grande Tijuca</div>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script>
+    // Contagem regressiva até 11/10/2025 09:00 (Brasília)
+    (function(){
+      var t = new Date('2025-10-11T09:00:00-03:00').getTime();
+      function pad(n){return String(n).padStart(2,'0');}
+      function tick(){
+        var now = Date.now(), diff = Math.max(0, t - now);
+        var d = Math.floor(diff/86400000); diff -= d*86400000;
+        var h = Math.floor(diff/3600000); diff -= h*3600000;
+        var m = Math.floor(diff/60000); diff -= m*60000;
+        var s = Math.floor(diff/1000);
+        document.getElementById('d').textContent = pad(d);
+        document.getElementById('h').textContent = pad(h);
+        document.getElementById('m').textContent = pad(m);
+        document.getElementById('s').textContent = pad(s);
+      }
+      tick(); setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>
